@@ -31,7 +31,7 @@ def scrape_dir(url, dest):  # url is single string, not a list, points to a remo
     files_links = []
     for item in table_row:
         file_name = item.find('a')
-        if(file_name and file_name.text!="Name" and file_name.text!="Parent Directory"):     #TODO: make list of items to be ignored
+        if(file_name and file_name.text!="Name" and file_name.text!="Parent Directory"):  
             if file_name.text[-1] == '/': #If the row-item is Directory 
                 dirs_list.append(file_name.text)
                 dirs_links.append(url + file_name.get('href'))
