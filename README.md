@@ -1,5 +1,5 @@
 # Intranet_Sync
-Python Script to scrape and synchronize entire directories from Intranet - an Apache RedHat server
+Python Script to scrape and synchronize entire directories from Intranet - an Apache RedHat HTTP server
 
 This script...
 1. Scrapes the remote directories *(from DIR_URLS list)*
