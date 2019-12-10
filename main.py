@@ -9,7 +9,7 @@ DIR_URLS = [
     'http://intranet.daiict.ac.in/~daiict_nt01/Academic/Archives/Holidays/'
 ]
 
-DEST_PATH = '/Users/meetpatel/Documents/Code/Miscellaneous/PythonSync/target_folder'
+DEST_PATH = '/Users/meetpatel/Downloads'
 
 IGNORE_LIST = [
     '.DS_Store', 'Thumbs.db'
