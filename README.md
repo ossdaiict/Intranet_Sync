@@ -25,6 +25,7 @@ pip install -r requirements.txt
 #### 3. Add links to the directories you want to synchronize:
 
 Update **DIR_URLS** list inside **main.py**
+Also update **DEST_PATH**
 
 
 #### 4. Run:
