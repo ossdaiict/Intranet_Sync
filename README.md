@@ -1,6 +1,10 @@
 # Intranet_Sync
 Python Script to scrape and synchronize entire directories from Intranet - an Apache RedHat HTTP server
 
+[![GitHub issues](https://img.shields.io/github/issues/meet59patel/Intranet_Sync?color=important)](https://github.com/meet59patel/Intranet_Sync/issues)
+[![GitHub forks](https://img.shields.io/github/forks/meet59patel/Intranet_Sync)](https://github.com/meet59patel/Intranet_Sync/network)
+[![GitHub license](https://img.shields.io/github/license/meet59patel/Intranet_Sync)](https://github.com/meet59patel/Intranet_Sync/blob/master/LICENSE)
+
 This script...
 1. Scrapes the remote directories *(from DIR_URLS list)*
 2. Compares with locally available files
