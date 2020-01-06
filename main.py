@@ -14,7 +14,7 @@ DEST_PATH = '/Users/meetpatel/Downloads'
 IGNORE_LIST = [
     '.DS_Store', 'Thumbs.db'
 ]
-DOWNLOAD_TIMEOUT = 10 # In seconds
+DOWNLOAD_TIMEOUT = 10 # Threshold Download Timeout, In seconds
 CHUNK_SIZE = 1024
 
 
@@ -88,7 +88,7 @@ def main():
         newdirname = join(DEST_PATH, newdirname)
         if not exists(newdirname):
             os.makedirs(newdirname)
-            print("this")
+            print("Made New Directory...")
         t = threading.Thread(target=scrape_dir, args=(dirurl, newdirname))
         t.start()
         threadslist.append(t)
